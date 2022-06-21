@@ -1,0 +1,20 @@
+<template>
+	<div class="slds-card">
+		<h1> Calculadora LWC </h1>
+
+    <lightning-input type="text" label="n1" onchange={mudouN1}></lightning-input>
+		<lightning-input type="text" label="n2" onchange={mudouN2}></lightning-input>
+
+    <lightning-button variant="brand-outline" label="+"  onclick={somar} class="slds-m-left_x-small">
+		</lightning-button>
+    <lightning-button variant="brand-outline" label="-"  onclick={subtrair} class="slds-m-left_x-small">
+		</lightning-button> 
+		<lightning-button variant="brand-outline" label="*"  onclick={multiplicar} class="slds-m-left_x-small">
+		</lightning-button>
+		<lightning-button variant="brand-outline" label="/"  onclick={dividir} class="slds-m-left_x-small">
+		</lightning-button>
+    <br/>            
+    <span id="resultado">O Resultado é: {resultado} </span> 
+	</div>
+				
+</template>

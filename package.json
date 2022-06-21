@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/analuizall.lwc-l4o5anz5-fork-l4o5s8nh",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve HBNU4leiZwlCyAwzJXNx --open"
+  }
+}
